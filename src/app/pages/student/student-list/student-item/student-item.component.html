@@ -1,0 +1,23 @@
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <div class="card" style="width: 14rem;">
+        <img [src]="student.img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" >ID: {{student.id}}</h5>
+          <h5 class="card-title" >Name: {{student.name}}</h5>
+          <h5 class="card-title" >Age: {{student.age}}</h5>
+          <h5 class="card-title" >Email: {{student.email}}</h5>
+          <h5 class="card-title" >Number: {{student.number}}</h5>
+          <button class="btn btn-danger" >Edit</button>&nbsp;
+          <button class="btn btn-warning" (click)="onDeleteClick()">Delete</button>
+              </div>
+      </div>
+    
+    </div>
+    
+    
+  </div>
+  </div>
+
+
